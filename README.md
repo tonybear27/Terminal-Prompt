@@ -16,7 +16,7 @@ And make sure to change your name.
 Type `source ~/.zshrc`.
 
 #### Result
-<img width="1440" alt="Screenshot 2023-12-23 at 4 24 33 PM" src="https://github.com/tonybear27/Terminal-Prompt/assets/128001273/1843e2b2-a154-4cb7-af62-a0cf4661566b">
+<img width="1427" alt="Screenshot 2023-12-23 at 4 27 40 PM" src="https://github.com/tonybear27/Terminal-Prompt/assets/128001273/6e6fb4a7-dc29-4010-bb4a-e29aa3f139a4">
 
 #### Note
 The bettery status will be updated automaticcally when you type new command.
