@@ -19,4 +19,4 @@ Type `source ~/.zshrc`.
 <img width="1427" alt="Screenshot 2023-12-23 at 4 27 40 PM" src="https://github.com/tonybear27/Terminal-Prompt/assets/128001273/6e6fb4a7-dc29-4010-bb4a-e29aa3f139a4">
 
 #### Note
-The bettery status will be updated automaticcally when you type new command.
+The bettery status will be updated automatically when you type new command.
