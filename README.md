@@ -9,7 +9,7 @@ Open your terminal.
 Type `open ~/.zshrc`.
 
 #### Step 3
-Past the content of (code)[./main.sh] to it. \
+Past the content of [code](./main.sh) to it. \
 And make sure to change your name.
 
 #### Step 4
