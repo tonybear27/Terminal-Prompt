@@ -1,5 +1,6 @@
 ## Customized Your Terminal
-If you don't want to install `iterm2` or `oh my zsh` on your computer but want to make your terminal more beautiful, just follow me ! \
+If you don't want to install `iterm2` or `oh my zsh` on your computer but want to make your terminal more beautiful, just follow me ! 
+
 My computer: Apple MacBook Pro M2
 
 #### Step 1
@@ -9,7 +10,8 @@ Open your terminal.
 Type `open ~/.zshrc`.
 
 #### Step 3
-Past the content of [code](./main.sh) to it. \
+Past the content of [code](./main.sh) to it. 
+
 And make sure to change your name.
 
 #### Step 4

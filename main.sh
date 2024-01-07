@@ -1,6 +1,12 @@
 #!/bin/zsh
 
+# brew hack for x86
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
+
 current_time=$(date +%H%M)
+
+# Change here
+Name="Tony🐽"
 
 morning=("J'espère que vous passerez une matinée fantastique et une journée encore meilleure😌" "J'espère que vous avez passé une merveilleuse nuit de sommeil et que vous avez fait de beaux rêves😙" "Saisir le jour. Ou éternuer la journée😛. Quoi qu’il en soit, soyez bénis !" "Humeur géniale. Oups, il est trop tôt pour ça.🤪" "Tu veux venir et répéter avec moi 10 fois de plus ?🤣")
 
@@ -13,19 +19,19 @@ night=("Il est temps de se détendre et de se relaxer~🛌" "Ne laissez pas les 
 if [[ $current_time -ge 0600 && $current_time -lt 1200 ]]; then
     num_messages=${#morning[@]}
     random_index=$((RANDOM % num_messages))
-    echo "🇫🇷  🌞 Bonjour Tony! ${morning[random_index]}"
+    echo "🇫🇷  🌞 Bonjour ${Name}! ${morning[random_index]}"
 elif [[ $current_time -ge 1200 && $current_time -lt 1700 ]]; then
     num_messages=${#afternoon[@]}
     random_index=$((RANDOM % num_messages))
-    echo "🇫🇷  💫 Bonjour Tony! ${afternoon[random_index]}"
+    echo "🇫🇷  💫 Bonjour ${Name}! ${afternoon[random_index]}"
 elif [[ $current_time -ge 1700 && $current_time -lt 2300 ]]; then
     num_messages=${#evening[@]}
     random_index=$((RANDOM % num_messages))
-    echo "🇫🇷  😇 Bonsoir Tony! ${evening[random_index]}"
+    echo "🇫🇷  😇 Bonsoir ${Name}! ${evening[random_index]}"
 else 
     num_messages=${#night[@]}
     random_index=$((RANDOM % num_messages))
-    echo "🇫🇷  😴 Bonne nuit Tony! ${night[random_index]}"
+    echo "🇫🇷  😴 Bonne nuit ${Name}! ${night[random_index]}"
 fi
 
 
@@ -80,11 +86,11 @@ function precmd() {
     update_battery_status
 }
 
-PROMPT="%B%F{cyan}Tony🐽%f%b %F{10}%D%f%F{10} ~/%1~%B: ~ %% %F{white}%f%b"
+PROMPT="%B%F{cyan}${Name}%f%b %F{10}%D%f%F{10} ~/%1~%B: ~ %% %F{white}%f%b"
 
 # Define a function to be executed when the terminal is closed
 function on_exit() {
-    echo "Au Revoir, Tony! 👋🏻 🥰"
+    echo "Au Revoir, ${Name}! 👋🏻 🥰"
 }
 
 # Trap the EXIT signal to call the on_exit function
