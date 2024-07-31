@@ -1,7 +1,7 @@
 ## Customized Your Terminal
 If you don't want to install `iterm2` or `oh my zsh` on your computer but want to make your terminal more beautiful, just follow me ! 
 
-My computer: Apple MacBook Pro M2
+My computer: Apple MacBook Pro M3 Pro
 
 #### Step 1
 Open your terminal.
