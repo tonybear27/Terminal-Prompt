@@ -8,6 +8,7 @@ Open your terminal.
 
 #### Step 2
 Type `open ~/.zshrc`.
+If first time, `vim ~/.zshrc`.
 
 #### Step 3
 Past the content of [code](./main.sh) to it. 
