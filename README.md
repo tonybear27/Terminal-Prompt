@@ -8,6 +8,7 @@ Open your terminal.
 
 #### Step 2
 Type `open ~/.zshrc`.
+
 If first time, `vim ~/.zshrc`.
 
 #### Step 3
