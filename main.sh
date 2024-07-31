@@ -1,8 +1,5 @@
 #!/bin/zsh
 
-# brew hack for x86
-alias ibrew='arch -x86_64 /usr/local/bin/brew'
-
 current_time=$(date +%H%M)
 
 # Change here
@@ -33,23 +30,6 @@ else
     random_index=$((RANDOM % num_messages))
     echo "🇫🇷  😴 Bonne nuit ${Name}! ${night[random_index]}"
 fi
-
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/tony/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/tony/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/tony/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/tony/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 
 ## battery
 # Function to get the battery status
